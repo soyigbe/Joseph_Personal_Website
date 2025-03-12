@@ -1,0 +1,62 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 5px;
+    margin: 5px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: 
+        "wdth" 100;
+
+}
+
+header {
+    color: blue;
+    background: lightgreen;
+}
+
+#webname {
+    background-color: #ffffff;
+}
+
+.nav {
+    text-decoration: none;
+    color: #9c5b21;
+    margin-right: 15px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: lightgreen;
+    color: black;
+    width: fit-content;
+}
+
+tr:nth-child(odd) {
+    background-color: #9c5b21;
+}
+
+tr:nth-child(even) {
+    background-color: brown;
+}
+
+form * {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#submit {
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+#comment {
+    width:250px; 
+    height: 150px;
+}
+
+
+
